@@ -1,0 +1,42 @@
+main header {
+  padding: 5vh 85px;
+  background-color: #0060fa;
+  min-height: 50vh;
+  text-align: center;
+}
+
+main header h1 {
+  color: #f0f0f0;
+  font-weight: 500;
+}
+
+main header p {
+  margin-top: 5vh;
+  color: #e0e0e0;
+}
+
+main header button {
+  margin: 7vh auto 0;
+  padding: 10px 100px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #f0f0f0;
+  color: #0060fa;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+main .organizations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 70px 20px;
+  background-color: #428aff;
+  -webkit-clip-path: polygon(0 34%, 100% 0, 100% 73%, 0 100%);
+  clip-path: polygon(0 34%, 100% 0, 100% 73%, 0 100%);
+  margin-top: -55px;
+}
+/*# sourceMappingURL=Home.css.map */
